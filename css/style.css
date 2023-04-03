@@ -40,7 +40,8 @@ section {
   line-height: 1.5;
 }
 
-.title {
+.title,
+#navfix {
   background-color: #537fe7;
   color: whitesmoke;
 }
@@ -98,6 +99,15 @@ section {
   .topics .card {
   }
 } */
+
+.card {
+  position: relative;
+}
+.px-3 {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
 
 /*Download buttons*/
 
@@ -257,4 +267,17 @@ ol {
   color: #fff;
   text-align: center;
   padding: 3% 15% 4%;
+}
+
+/*notFound*/
+#notfound .center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+#partition {
+  background-color: #4d6de6;
+  padding: 0.25rem;
 }
