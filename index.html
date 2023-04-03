@@ -1,321 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>CryptoCraze</title>
-    <!--Google Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-      rel="stylesheet"
-    />
 
-    <!-- Our project just needs Font Awesome Solid + Brands -->
-    <!-- Font Awesome-->
-    <script
-      src="https://kit.fontawesome.com/a2c23c1a99.js"
-      crossorigin="anonymous"
-    ></script>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CryptoCraze</title>
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet" />
 
-    <link rel="stylesheet" href="./css/style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
-    <section class="title">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="">CryptoCraze</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarTogglerDemo01"
-          aria-controls="navbarTogglerDemo01"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#links">Contacts </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#pricing">Pricing </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Footer">Download </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-6">
-            <h1 class="head">Join the craze and dive into crypto.</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-              delectus culpa vitae nihil aliquid pariatur dolor, eum quam
-              adipisci dignissimos nesciunt illo quaerat veniam eius incidunt
-              facilis doloremque quasi molestiae.
-            </p>
+  <!-- Our project just needs Font Awesome Solid + Brands -->
+  <!-- Font Awesome-->
+  <script src="https://kit.fontawesome.com/a2c23c1a99.js" crossorigin="anonymous"></script>
 
-            <button
-              type="button"
-              class="btn btn-outline-light btn-lg downlaod-button"
-            >
-              <i class="fa-brands fa-apple"></i> Download
-            </button>
-            <button
-              type="button"
-              class="btn btn-outline-light btn btn-lg download-button"
-            >
-              <i class="fa-brands fa-google-play"></i> Download
-            </button>
-          </div>
-          <div class="col-lg-5">
-            <div class="card text-center">
-              <div class="card-body">
-                <h5
-                  class="card-title"
-                  style="margin-bottom: 32px; margin-top: 12px"
-                >
-                  Sign-Up
-                </h5>
-                <div class="form-floating mb-3">
-                  <input
-                    type="Name"
-                    class="form-control"
-                    id="floatingInput"
-                    placeholder="name@example.com"
-                  />
-                  <label for="floatingInput">Your name</label>
-                </div>
-                <div class="form-floating mb-3">
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="floatingInput"
-                    placeholder="name@example.com"
-                  />
-                  <label for="floatingInput">Email address</label>
-                </div>
-                <div class="form-floating mb-3">
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="floatingInput"
-                    placeholder="name@example.com"
-                  />
-                  <label for="floatingInput">Confirm your email address</label>
-                </div>
-                <div class="form-floating">
-                  <input
-                    type="password"
-                    class="form-control"
-                    id="floatingPassword"
-                    placeholder="Password"
-                    style="margin-bottom: 16px"
-                  />
-                  <label for="floatingPassword">Password</label>
-                </div>
-                <div class="form-floating">
-                  <input
-                    type="password"
-                    class="form-control"
-                    id="floatingPassword"
-                    placeholder="Password"
-                    style="margin-bottom: 16px"
-                  />
-                  <label for="floatingPassword">Confirm your password</label>
-                </div>
-                <a href="#" class="btn btn-primary">Register</a>
-              </div>
-            </div>
-          </div>
-        </div>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
+</head>
+
+<body>
+  <section class="title">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="">CryptoCraze</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#links">Contacts </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Footer">Download </a>
+          </li>
+        </ul>
       </div>
-    </section>
-
-    <section id="features"></section>
-
-    <section class="topics">
-      <h2>Let's Dive In...</h2>
-
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="card mb-3" style="max-width: 540px">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="..." class="img-fluid rounded-start" alt="..." />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Blockchain Technology</h5>
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="card mb-3" style="max-width: 540px">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="..." class="img-fluid rounded-start" alt="..." />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Cryptocurrencies</h5>
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="card mb-3" style="max-width: 540px">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="..." class="img-fluid rounded-start" alt="..." />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Smart Contracts</h5>
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="card mb-3" style="max-width: 540px">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="..." class="img-fluid rounded-start" alt="..." />
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Blockchain Use Cases</h5>
-                    <p class="card-text">
-                      This is a wider card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
-                    </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    </nav>
+    <div class="container-fluid">
       <div class="row">
         <div class="col-lg-6">
-          <div class="card mb-3" style="max-width: 540px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="..." class="img-fluid rounded-start" alt="..." />
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Blockchain Security</h5>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <h1 class="head">Join the craze and dive into crypto.</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+            delectus culpa vitae nihil aliquid pariatur dolor, eum quam
+            adipisci dignissimos nesciunt illo quaerat veniam eius incidunt
+            facilis doloremque quasi molestiae.
+          </p>
+
+          <button type="button" class="btn btn-outline-light btn-lg downlaod-button">
+            <i class="fa-brands fa-apple"></i> Download
+          </button>
+          <button type="button" class="btn btn-outline-light btn btn-lg download-button">
+            <i class="fa-brands fa-google-play"></i> Download
+          </button>
         </div>
-        <div class="col-lg-6">
-          <div class="card mb-3" style="max-width: 540px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="..." class="img-fluid rounded-start" alt="..." />
+        <div class="col-lg-5">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title" style="margin-bottom: 32px; margin-top: 12px">
+                Sign-Up
+              </h5>
+              <div class="form-floating mb-3">
+                <input type="Name" class="form-control" id="floatingInput" placeholder="name@example.com" />
+                <label for="floatingInput">Your name</label>
               </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Decentralized Applications</h5>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
-                  </p>
-                </div>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
+                <label for="floatingInput">Email address</label>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="card mb-3" style="max-width: 540px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="..." class="img-fluid rounded-start" alt="..." />
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" />
+                <label for="floatingInput">Confirm your email address</label>
               </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Blockchain Development</h5>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
-                  </p>
-                </div>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password"
+                  style="margin-bottom: 16px" />
+                <label for="floatingPassword">Password</label>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="card mb-3" style="max-width: 540px">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="..." class="img-fluid rounded-start" alt="..." />
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password"
+                  style="margin-bottom: 16px" />
+                <label for="floatingPassword">Confirm your password</label>
               </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Certification</h5>
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
-                  </p>
-              </div>
+              <a href="#" class="btn btn-primary">Register</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    </section>
+  </section>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <section id="features"></section>
+
+  <section class="topics">
+    <h2>Let's Dive In...</h2>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <!-- <div class="col-md-4">
+                <img src="./images/images (1).jfif" class="img-fluid rounded-start" id="img1" alt="..." />
+              </div> -->
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Blockchain Technology</h5>
+                  <p class="card-text">
+                    This topic cover the basics of blockchain, including how it works, its history, and the different
+                    types of
+                    blockchains.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <!-- <div class="col-md-4">
+                <img src="..." class="img-fluid rounded-start" alt="..." />
+              </div> -->
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Cryptocurrencies</h5>
+                  <p class="card-text">
+                    This topic cover the basics of cryptocurrencies, including how they work, the different types of
+                    cryptocurrencies, and their uses.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <!-- <div class="col-md-4">
+                <img src="..." class="img-fluid rounded-start" alt="..." />
+              </div> -->
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Smart Contracts</h5>
+                  <p class="card-text">
+                    This topic cover the basics of smart contracts, including what they are, how they work, and their
+                    benefits.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <!-- <div class="col-md-4">
+                <img src="..." class="img-fluid rounded-start" alt="..." />
+              </div> -->
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Blockchain Use Cases</h5>
+                  <p class="card-text">
+                    This topic cover the different industries that are using blockchain technology, such as finance,
+                    healthcare, supply chain, and real estate.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <!-- <div class="col-md-4">
+                <img src="..." class="img-fluid rounded-start" alt="..." />
+              </div> -->
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Blockchain Security</h5>
+                  <p class="card-text">
+                    This topic cover the different security features of blockchain technology, such as cryptography,
+                    consensus mechanisms, and decentralized networks.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <!-- <div class="col-md-4">
+                <img src="..." class="img-fluid rounded-start" alt="..." />
+              </div> -->
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Decentralized Applications</h5>
+                  <p class="card-text">
+                    This topic cover the basics of Decentralized Applications (dApps), including what they are, how they
+                    work, and their benefits.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <!-- <div class="col-md-4">
+                <img src="..." class="img-fluid rounded-start" alt="..." />
+              </div> -->
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Blockchain Development</h5>
+                  <p class="card-text">
+                    This topic cover the basics of blockchain development, including programming languages, tools, and
+                    frameworks used to build blockchain applications.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <!-- <div class="col-md-4">
+                <img src="..." class="img-fluid rounded-start" alt="..." />
+              </div> -->
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Certification</h5>
+                  <p class="card-text">
+                    Boost your career in blockchain technology and stand out in the industry with our respected and
+                    recognized certification program.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
