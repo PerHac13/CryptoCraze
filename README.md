@@ -36,8 +36,9 @@ To use CryptoCraze, simply visit our website at [CryptoCraze](https://facelift23
     or
      1. Clone the repository to your local machine.
      2. Open the index.html file in your web browser to access the CryptoCraze website.
+     
 
-     ## Contributing
+## Contributing
 
 We welcome contributions from anyone who is passionate about blockchain technology and web development. If you would like to contribute to this project, please fork this repository and submit a pull request with your changes.
 
