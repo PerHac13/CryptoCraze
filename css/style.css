@@ -1,4 +1,8 @@
 /*TAG SELECTORS*/
+.darkB {
+  background-color: #537fe7;
+  color: white;
+}
 
 body {
   font-family: "Montserrat", sans-serif;

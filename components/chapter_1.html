@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CryptoCraze</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet" />
+
+    <!-- Our project just needs Font Awesome Solid + Brands -->
+    <!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/a2c23c1a99.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../css/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
+</head>
+
+<body>
+    <section id="navfix">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="">CryptoCraze</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#dashBoard">DashBoard </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#linkSelf">Contacts </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#download">Download </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section class="">
+        <h1 style="color: #537fe7;font-weight: 900;">
+            <center>Introduction to Blockchain</center>
+        </h1>
+    </section>
+    <section class="">
+        <h2>How blockchain works:</h2>
+        <p>Blockchain is a decentralized, distributed ledger technology that is used to record transactions across a
+            network of computers. Each block in the chain contains a cryptographic hash of the previous block, a
+            timestamp, and transaction data.
+            <br>
+            Here's a more detailed explanation of how blockchain works:
+            <br>
+        <ol>
+            <li>Transactions are recorded on a blockchain in blocks. Each block contains a unique cryptographic hash,
+                which
+                is created using the hash of the previous block, a timestamp, and the transaction data.
+            </li>
+            <li>Once a block is added to the blockchain, it cannot be modified. Any attempt to alter the data in a block
+                will result in the hash of the block being invalidated, which would cause the entire blockchain to be
+                disrupted.</li>
+            <li>The blockchain is decentralized, meaning that there is no central authority controlling it. Instead, it
+                is
+                maintained by a network of computers that participate in the blockchain.
+            </li>
+            <li>Each computer on the blockchain network maintains a copy of the entire blockchain. This means that there
+                is
+                no single point of failure or vulnerability in the network.
+            </li>
+            <li>To add a new block to the blockchain, the computers on the network must come to a consensus on the
+                validity
+                of the transaction. This is typically achieved through a proof-of-work or proof-of-stake mechanism,
+                where
+                the computers compete to solve a complex mathematical problem.
+            </li>
+            <li>Once a block is added to the blockchain, it is considered immutable and can no longer be modified. This
+                makes the blockchain a highly secure and tamper-proof ledger for recording transactions.
+            </li>
+            <li>In addition to recording transactions, the blockchain can also be used to execute smart contracts. Smart
+                contracts are self-executing contracts with the terms of the agreement directly written into code on the
+                blockchain.</li>
+            <li>Overall, the decentralized and tamper-proof nature of blockchain technology makes it a highly secure and
+                reliable way to record transactions and execute smart contracts.
+            </li>
+        </ol>
+        </p>
+
+    </section>
+    <section class="darkB">
+        <h2>History of blockchain:</h2>
+        <p>Blockchain technology has a rich and varied history, with roots that stretch back to the early days of the
+            internet. The first seeds of the technology were planted in the early 1990s, when Stuart Haber and W. Scott
+            Stornetta developed a cryptographic method for timestamping digital documents, creating an immutable record
+            that could not be altered or deleted. The goal of this system was to create a reliable method for verifying
+            the authenticity of digital documents, and to provide a secure, tamper-proof method for storing data.</p>
+        <p>In the years that followed, other researchers and cryptographers explored and developed the concept of the
+            blockchain, refining and enhancing it in various ways. One notable example was the work of Nick Szabo, who
+            developed the concept of "smart contracts" in the mid-1990s. These digital contracts could be automatically
+            executed by a computer system, using the blockchain to verify and enforce the terms of the contract.</p>
+        <p>However, it was not until 2008 that the term "blockchain" was first used, when an unknown person or group of
+            people using the pseudonym Satoshi Nakamoto published a paper titled "Bitcoin: A Peer-to-Peer Electronic
+            Cash System". This paper described a decentralized, digital currency system that used a blockchain to record
+            transactions and eliminate the need for intermediaries like banks. The system was designed to be completely
+            transparent and secure, with transactions being recorded on a public ledger that was maintained by a
+            distributed network of computers.</p>
+        <p>The launch of Bitcoin in 2009 marked the first implementation of blockchain technology, and it quickly gained
+            a following among enthusiasts and early adopters. Bitcoin's blockchain was used to record and verify
+            transactions on the network, creating a secure and decentralized ledger that was immune to fraud and hacking
+            attempts. The blockchain also served as a platform for other cryptocurrencies, which began to emerge in the
+            years following Bitcoin's launch.</p>
+        <p>As the blockchain gained in popularity, researchers and developers began to explore its potential uses beyond
+            just cryptocurrencies. These included supply chain management, voting systems, identity verification, and
+            more. New blockchain platforms were developed, such as Ethereum, which enabled the execution of smart
+            contracts and the creation of decentralized applications (dApps).</p>
+        <p>Today, blockchain technology is being implemented in a wide range of industries, with many companies and
+            organizations exploring its potential uses. The technology offers the promise of greater security,
+            transparency, and efficiency in a wide range of applications, from financial transactions to healthcare
+            records to digital identity management.</p>
+        <p>In conclusion, blockchain technology has a rich and varied history that has evolved over several decades.
+            From its early roots in the work of researchers like Haber, Stornetta, and Szabo, to its implementation in
+            the form of Bitcoin and other cryptocurrencies, to its current role as a transformative technology in a wide
+            range of industries, the blockchain continues to evolve and offer new possibilities for the future.</p>
+    </section>
+    <section>
+        <h2>Types of Blockchain:</h2>
+        <p>There are three main types of blockchain: public, private, and consortium. Let's look at each type in more
+            detail.</p>
+        <ol>
+            <li>
+                <h4>Public Blockchain:</h4>
+                <p>Public blockchains are open and decentralized networks that are not owned by any single entity.
+                    Anyone can join the network, create a wallet, and send or receive transactions. Public blockchains
+                    use consensus algorithms, such as Proof of Work (PoW) or Proof of Stake (PoS), to validate
+                    transactions and maintain the integrity of the network. The most well-known public blockchain is
+                    Bitcoin, which was launched in 2009. Ethereum is another popular public blockchain that allows
+                    developers to build decentralized applications (dApps) and smart contracts.</p>
+            </li>
+            <p>One of the key benefits of public blockchains is their transparency. Anyone can view the transaction
+                history and see the current state of the network. This transparency also makes public blockchains
+                resistant to censorship and manipulation. However, public blockchains are often slower and more
+                expensive than private blockchains due to their large network size and decentralization.</p>
+            <li>
+                <h4>Private Blockchain:</h4>
+                <p>Private blockchains, also known as permissioned blockchains, are controlled by a single organization
+                    or group of organizations. These blockchains are not open to the public, and only authorized
+                    participants can access the network. Private blockchains often use consensus algorithms that do not
+                    require the extensive computing power needed in public blockchains. Instead, they rely on the trust
+                    of the participants to validate transactions.</p>
+            </li>
+            <p>Private blockchains are often used in industries where data privacy and security are critical, such as
+                healthcare and finance. Since only authorized participants can access the network, private blockchains
+                provide greater control and security over data. However, this also means that private blockchains are
+                less transparent than public blockchains, which can be a disadvantage in some use cases.</p>
+            <li>
+                <h4>Consortium Blockchain:</h4>
+                <p>Consortium blockchains are a hybrid of public and private blockchains. In a consortium blockchain, a
+                    group of organizations come together to control the network. These organizations are typically from
+                    the same industry or have a shared interest in the network. Consortium blockchains use consensus
+                    algorithms to validate transactions, and each organization has a designated role in maintaining the
+                    network.</p>
+            </li>
+            <p>Consortium blockchains are often used in industries where multiple parties need to access and share data,
+                such as supply chain management and banking. They provide greater scalability and security than public
+                blockchains, while still allowing for transparency and data sharing between authorized participants.
+                However, consortium blockchains can also be more complex to set up and manage than public or private
+                blockchains.</p>
+        </ol>
+    </section>
+    <section class="darkB">
+        <h2>Benefits of Blockchain:</h2>
+        <p>Here are some of the key benefits of blockchain technology:</p>
+        <ol>
+            <li>
+                <h4>Decentralization:</h4>
+                <p>One of the biggest benefits of blockchain technology is decentralization. Traditional systems rely on
+                    a central authority to control the network and validate transactions. This makes them vulnerable to
+                    attacks, corruption, and censorship. Blockchain, on the other hand, uses a distributed network of
+                    nodes to validate transactions and store data. This makes it more difficult for a single party to
+                    control the network, and ensures that the data is accurate and secure.</p>
+            </li>
+            <li>
+                <h4>Security:</h4>
+                <p>Blockchain technology uses advanced cryptography to secure transactions and data. Each transaction on
+                    the blockchain is verified and added to a permanent, unalterable record. This makes it extremely
+                    difficult to tamper with the data or steal information. Additionally, since each block on the
+                    blockchain is linked to the previous block, it creates a chain of data that is resistant to
+                    manipulation or hacking.</p>
+            </li>
+            <li>
+                <h4>Transparency:</h4>
+                <p>Another benefit of blockchain technology is transparency. Since the data on the blockchain is stored
+                    across a distributed network of nodes, anyone can view the data stored on the network. This makes it
+                    useful for applications such as supply chain management, where stakeholders need to track the
+                    movement of goods and ensure that they are authentic. Blockchain also provides a clear and auditable
+                    record of transactions, which can be useful in industries such as finance.</p>
+            </li>
+            <li>
+                <h4>Efficiency:</h4>
+                <p>Blockchain technology is also more efficient than traditional systems. Transactions can be processed
+                    quickly and securely, without the need for intermediaries or third-party verification. This can lead
+                    to faster, more efficient processes and reduced costs. In addition, since the data on the blockchain
+                    is stored across a distributed network of nodes, it can be more resilient and less susceptible to
+                    downtime or failure.</p>
+            </li>
+            <li>
+                <h4>Trust:</h4>
+                <p>Another key benefit of blockchain technology is trust. By using consensus algorithms and
+                    cryptographic verification, blockchain enables parties to trust the data and transactions on the
+                    network without the need for a third party to verify them. This can be useful in a variety of
+                    applications, such as peer-to-peer transactions or voting systems. By providing a secure and trusted
+                    platform for transactions, blockchain technology has the potential to revolutionize a wide range of
+                    industries.</p>
+            </li>
+            <li>
+                <h4>Innovation:</h4>
+                <p>Finally, blockchain technology is a platform for innovation. It provides a new way of storing and
+                    transferring value, and has the potential to revolutionize a wide range of industries, from finance
+                    to healthcare to supply chain management. As developers continue to explore the possibilities of
+                    blockchain technology, we can expect to see new and innovative applications emerge. This could
+                    include new forms of decentralized finance, digital identity management, and much more. The
+                    potential for innovation with blockchain technology is virtually limitless.</p>
+            </li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Blockchain applications:</h2>
+        <p>Blockchain technology has several potential applications beyond cryptocurrency. Here are some examples:</p>
+        <ol>
+            <li>
+                <h4>Supply Chain Management:</h4>
+                <p>Blockchain technology can be used to provide a more efficient and transparent supply chain management
+                    system. By using a distributed ledger, all parties involved in a supply chain can have access to the
+                    same information, reducing the risk of fraud and increasing accountability. Additionally, blockchain
+                    technology can be used to track products as they move through the supply chain, providing real-time
+                    information on their location and status.</p>
+            </li>
+            <li>
+                <h4>Identity Management:</h4>
+                <p>Blockchain technology has the potential to create a secure and decentralized identity management
+                    system. By using a blockchain-based identity management system, individuals can maintain control
+                    over their personal information while still being able to prove their identity to third parties.
+                    This can be particularly useful in situations where identity verification is required, such as in
+                    accessing financial services or voting.</p>
+            </li>
+            <li>
+                <h4>Smart Contracts:</h4>
+                <p>Smart contracts are self-executing contracts with the terms of the agreement between buyer and seller
+                    being directly written into lines of code. By using blockchain technology, smart contracts can be
+                    created in a decentralized and secure manner. Smart contracts can be used to automate processes and
+                    transactions, reducing the need for intermediaries and increasing efficiency. For example, a smart
+                    contract could be used to automate the process of paying a supplier when certain conditions are met,
+                    such as the delivery of goods.</p>
+            </li>
+            <li>
+                <h4>Healthcare:</h4>
+                <p>Blockchain technology can be used to create a secure and transparent platform for storing and sharing
+                    medical records. By using a blockchain-based system, healthcare providers can access patient
+                    information quickly and easily, while still ensuring patient privacy. Additionally, blockchain
+                    technology can be used to securely store clinical trial data, making it easier for researchers to
+                    access and analyze.</p>
+            </li>
+            <li>
+                <h4>Voting:</h4>
+                <p>Blockchain technology can be used to create a secure and transparent voting system. By using a
+                    blockchain-based voting system, votes can be counted accurately and transparently, reducing the risk
+                    of tampering or fraud. Additionally, blockchain technology can be used to create a more inclusive
+                    voting system, allowing individuals who are unable to physically attend a polling station to vote
+                    remotely.</p>
+            </li>
+            <li>
+                <h4>Real Estate:</h4>
+                <p>Blockchain technology can be used to create a decentralized and transparent platform for buying and
+                    selling property. By using a blockchain-based system, the process of buying and selling property can
+                    be made more efficient, reducing the need for intermediaries and increasing transparency.
+                    Additionally, blockchain technology can be used to securely store property records, reducing the
+                    risk of fraud.</p>
+            </li>
+            <li>
+                <h4>Gaming:</h4>
+                <p>Blockchain technology can be used to create decentralized gaming platforms, allowing players to own
+                    and trade in-game assets. By using a blockchain-based system, ownership of in-game assets can be
+                    verified, reducing the risk of fraud and increasing transparency. Additionally, blockchain
+                    technology can be used to create fairer gaming systems, ensuring that all players have an equal
+                    chance of winning.</p>
+            </li>
+        </ol>
+        <p>These are just a few examples of the potential applications of blockchain technology. As the technology
+            continues to develop, it is likely that we will see even more innovative and useful applications emerge.</p>
+    </section>
+
+    <section class="darkB">
+        <h2>Challenges and limitations:</h2>
+        <p>Blockchain technology has the potential to revolutionize the way we conduct transactions and manage data.
+            However, it is not without its challenges and limitations. Here are some of the key issues that are faced by
+            blockchain:</p>
+        <ol>
+            <li>
+                <h4>Scalability:</h4>
+                <p>As the size of the blockchain grows, the processing time required for each transaction increases.
+                    This is because every transaction must be verified and validated by all nodes in the network, which
+                    can lead to delays and higher transaction fees. This is particularly true for public blockchains
+                    like Bitcoin, which have limited processing power and bandwidth.</p>
+                <p>To address this challenge, some blockchain projects are exploring new consensus mechanisms and
+                    scaling solutions. For example, Ethereum is planning to transition from proof-of-work to
+                    proof-of-stake, which should improve scalability and reduce energy consumption. Other projects, such
+                    as the Lightning Network, are exploring off-chain solutions to improve transaction throughput.</p>
+            </li>
+            <li>
+                <h4>Security:</h4>
+                <p>Blockchain technology is designed to be secure, but it is not completely immune to attacks. One of
+                    the biggest security risks comes from 51% attacks, in which a single entity controls more than half
+                    of the network's computing power. This can enable the attacker to manipulate the blockchain and
+                    reverse transactions.</p>
+                <p>Other security risks include smart contract bugs and vulnerabilities, which can lead to loss of funds
+                    or data. To address these risks, it is important to conduct thorough security audits and implement
+                    best practices for smart contract development.</p>
+            </li>
+            <li>
+                <h4>Interoperability:</h4>
+                <p>There are currently many different blockchains in use, each with their own set of rules and
+                    protocols. This lack of interoperability can make it difficult for users to move assets between
+                    different blockchains.</p>
+                <p>To address this challenge, some projects are exploring new interoperability solutions such as
+                    cross-chain bridges and protocols that allow for the exchange of assets between different
+                    blockchains. Some of these solutions include Polkadot, Cosmos, and Chainlink.</p>
+            </li>
+            <li>
+                <h4>Regulation:</h4>
+                <p>Blockchain technology operates outside of traditional financial and legal frameworks, which can make
+                    it challenging to regulate. This can lead to uncertainty for businesses and investors who may be
+                    hesitant to invest in blockchain-based projects</p>
+                <p>To address this challenge, many governments and regulatory bodies are exploring new regulatory
+                    frameworks for blockchain and cryptocurrencies. Some countries, like Switzerland and Malta, have
+                    implemented friendly regulatory environments for blockchain-based businesses, while others are still
+                    developing their policies.</p>
+            </li>
+            <li>
+                <h4>Energy consumption:</h4>
+                <p>The mining process used in many blockchains requires significant computational power and energy,
+                    leading to high levels of energy consumption and environmental impact.</p>
+                <p>To address this challenge, some projects are exploring new consensus mechanisms that require less
+                    computational power, such as proof-of-stake. Additionally, there is a growing trend towards using
+                    renewable energy sources for mining operations.</p>
+            </li>
+            <li>
+                <h4>Adoption:</h4>
+                <p>Finally, the adoption of blockchain technology remains limited in many industries and regions. This
+                    can make it difficult for blockchain-based projects to gain traction and achieve widespread
+                    adoption.</p>
+                <p>To address this challenge, it is important to continue to educate businesses and individuals about
+                    the potential benefits of blockchain technology. Additionally, blockchain projects should focus on
+                    developing user-friendly interfaces and applications that can help drive adoption.</p>
+            </li>
+        </ol>
+        <p>Overall, while blockchain technology faces a number of challenges and limitations, it still holds tremendous
+            promise for transforming industries and changing the way we conduct business. As the technology continues to
+            mature and evolve, it is likely that many of these challenges will be addressed, leading to wider adoption
+            and more widespread use.</p>
+    </section>
+    <section>
+        <h2>Future of blockchain:</h2>
+        <p>Blockchain technology is still relatively new, but its potential applications and impact are immense. Here
+            are some areas where blockchain could have a significant impact in the future:</p>
+        <ol>
+            <li>
+                <h4>Supply Chain Management:</h4>
+                <p>The transparency, security, and accountability that blockchain offers can have a significant impact
+                    on supply chain management. For instance, it can help companies reduce fraud and counterfeiting,
+                    improve the tracking of products, and ensure that suppliers meet certain standards. In the future,
+                    blockchain could be used to create more sustainable supply chains, ensuring ethical sourcing and
+                    environmentally friendly practices.</p>
+            </li>
+            <li>
+                <h4>Identity Management:</h4>
+                <p>Blockchain can provide a decentralized and secure platform for identity management. It can give
+                    individuals greater control over their personal data, reduce the risk of identity theft, and provide
+                    greater privacy. In the future, blockchain-based identity management could be used to create more
+                    secure and seamless online experiences, such as digital passports and decentralized social networks.
+                </p>
+            </li>
+            <li>
+                <h4>Healthcare:</h4>
+                <p>Blockchain can transform the healthcare industry by providing a secure and tamper-proof platform for
+                    storing and sharing patient data. This can improve the quality of care, reduce costs, and prevent
+                    data breaches. Additionally, blockchain could help streamline clinical trials by providing a secure
+                    and transparent platform for managing data and ensuring compliance.</p>
+            </li>
+            <li>
+                <h4>Voting Systems:</h4>
+                <p>Blockchain can provide a more secure and transparent platform for voting systems. It can reduce the
+                    risk of fraud, hacking, and manipulation, while providing greater transparency and accountability.
+                    Blockchain-based voting systems could also help increase voter turnout and improve the accuracy of
+                    election results.</p>
+            </li>
+            <li>
+                <h4>Financial Services:</h4>
+                <p>Blockchain has already disrupted the financial services industry by providing a secure and
+                    decentralized platform for transactions. In the future, blockchain could be used to create more
+                    efficient and secure payment systems, reduce transaction fees, and increase financial inclusion.
+                    Additionally, blockchain-based smart contracts could revolutionize the way financial agreements are
+                    made and executed.</p>
+            </li>
+            <li>
+                <h4>Energy Management:</h4>
+                <p>Blockchain can be used to create more sustainable and efficient energy systems. For instance, it can
+                    help track the production and consumption of renewable energy, reduce waste, and ensure fair
+                    distribution of resources. In the future, blockchain-based energy systems could help reduce carbon
+                    emissions and promote renewable energy.</p>
+            </li>
+        </ol>
+        <p>Despite its potential, blockchain still faces some challenges and limitations. One of the biggest challenges
+            is scalability, as blockchain networks can become congested and slow as they grow. Additionally,
+            interoperability between different blockchain networks remains a challenge, making it difficult for
+            different networks to communicate and share data. Finally, regulatory hurdles and legal uncertainties can
+            slow down the adoption of blockchain in certain industries. However, as the technology continues to evolve
+            and mature, its impact on various industries is expected to grow.</p>
+    </section>
+
+    <section class="darkB">
+        <h2>Glossary of blockchain terms:</h2>
+        <p>Blockchain technology has introduced many new terms and concepts that are unique to this field. It can be
+            difficult for beginners to understand these terms, but learning them is essential to understanding
+            blockchain technology. Here is a glossary of some commonly used blockchain terms:</p>
+        <ol>
+            <li>
+                <p><strong>Blockchain:</strong> A distributed digital ledger that records transactions and stores data
+                    in
+                    a secure and transparent manner.</p>
+            </li>
+            <li>
+                <p><strong>Cryptocurrency:</strong> A digital or virtual currency that uses cryptography for security
+                    and
+                    operates independently of a central bank.</p>
+            </li>
+            <li>
+                <p><strong>Distributed ledger:</strong> A database that is spread across multiple nodes in a network,
+                    where each node has a copy of the database and any changes to it are propagated to all nodes.</p>
+            </li>
+            <li>
+                <p><strong>Hash:</strong> A unique digital fingerprint that represents a block of data. This fingerprint
+                    is generated using a hash function, which takes in the data as input and outputs a fixed-size string
+                    of characters.</p>
+            </li>
+            <li>
+                <p><strong>Mining:</strong> The process of adding new transactions to the blockchain by solving complex
+                    mathematical problems. Miners are rewarded with cryptocurrency for their efforts.</p>
+            </li>
+            <li>
+                <p><strong>Node:</strong> A computer that is connected to a blockchain network and maintains a copy of
+                    the blockchain.</p>
+            </li>
+            <li>
+                <p><strong>Smart contract:</strong> A self-executing contract that is programmed to automatically
+                    execute
+                    when certain conditions are met. Smart contracts are stored on the blockchain and can be used to
+                    automate many business processes.</p>
+            </li>
+            <li>
+                <p><strong>Token:</strong> A digital asset that represents ownership of a particular asset or utility.
+                    Tokens can be used for a variety of purposes, such as fundraising or providing access to a platform.
+                </p>
+            </li>
+            <li>
+                <p><strong>Consensus algorithm:</strong> A set of rules that determine how nodes on a blockchain network
+                    agree on the state of the blockchain. Common consensus algorithms include Proof of Work (PoW) and
+                    Proof of Stake (PoS).</p>
+            </li>
+            <li>
+                <p><strong>Private key:</strong> A secret code that is used to access a cryptocurrency wallet and
+                    authorize transactions. It should be kept confidential and not shared with anyone.</p>
+            </li>
+            <li>
+                <p><strong>Public key:</strong> A code that is used to receive cryptocurrency and identify the owner of
+                    a
+                    particular wallet.</p>
+            </li>
+            <li>
+                <p><strong>Fork:</strong> A change to the blockchain protocol that results in a new blockchain with
+                    different rules. A fork can be hard or soft, depending on whether the new blockchain is compatible
+                    with the old one.</p>
+            </li>
+        </ol>
+        <p>These are just a few of the many terms used in the blockchain space. By familiarizing yourself with these
+            terms, you can better understand how blockchain technology works and its potential applications.</p>
+    </section>
+
+
+    <section id="partition"></section>
+    <footer class="section footer-classic context-dark bg-image" style="background: #fff;">
+        <div class="container">
+            <div class="row row-30">
+                <div class="col-md-4 col-xl-5">
+                    <div class="pr-xl-4"><a class="navbar-brand" href="">CryptoCraze</a>
+                        <p>We are dedicated to providing you with the most comprehensive and accessible blockchain
+                            learning
+                            resources available, so you can feel confident and empowered to take on the challenges of
+                            this exciting
+                            and rapidly evolving industry.</p>
+                        <!-- Rights-->
+                        <p class="rights"><span>©  </span><span
+                                class="copyright-year">2023</span><span> </span><span>Shaikh
+                                Abdullah -IIITBH</span><span>. </span><span>All Rights
+                                Reserved.</span></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contacts</h5>
+                    <dl class="contact-list">
+                        <dt>Address:</dt>
+                        <dd>Indian Institute of Information Technology-Bhagalpur, Sabour, Bihar</dd>
+                    </dl>
+                    <dl class="contact-list">
+                        <dt>email:</dt>
+                        <dd><a href="mailto:shaikh.2201027cs@iiitbh.ac.in">shaikh.2201027cs@iiitbh.ac.in</a></dd>
+                    </dl>
+                    <dl class="contact-list">
+                        <dt>phones:</dt>
+                        <dd><a href="tel:+918904459630">Shaikh Abdullah</a>
+                            <!-- <span>or</span> <a href="tel:#">Biraj Sanghai</a> -->
+                        </dd>
+                    </dl>
+                </div>
+                <div class="col-md-4 col-xl-3">
+                    <h5>Links</h5>
+                    <ul class="nav-list">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">Donate us.</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section id="linkSelf">
+        <div class="last">
+            <a href="https://github.com/Facelift2376"><i class="con1 fa-brands fa-github fa-2xl"></i></a>
+            <a href="https://www.instagram.com/shabdullah_martian/"><i
+                    class="con2 fa-brands fa-instagram fa-2xl"></i></a>
+            <a
+                href="https://www.linkedin.com/in/shaikh-abdullah-60a046259?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B9L1iqR4rQNGu7xscZ6VRwg%3D%3D"><i
+                    class="con3 fa-brands fa-linkedin fa-2xl"></i></a>
+            <p class="copyright">© Copyright CryptoCraze <span> </span> @Shaikh Abdullah</p>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
