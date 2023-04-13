@@ -43,6 +43,9 @@ section {
   font-size: 3.5rem;
   line-height: 1.5;
 }
+.title .btn {
+  margin: 2.5rem auto 2.5rem auto;
+}
 
 .title,
 #navfix {
